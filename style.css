@@ -1,6 +1,6 @@
 table {
   width: 800px;
-  height: 800px;
+  height: 900px;
   margin: 0 auto;
   border: 5px solid black;
   border-collapse: collapse;
@@ -8,4 +8,8 @@ table {
 
 th, td {
   border: 8px solid black;
+}
+
+tr.top_one {
+  height: 80px;
 }
