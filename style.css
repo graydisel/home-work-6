@@ -1,16 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Kranky&display=swap');
+body
 table {
-  width: 800px;
-  height: 900px;
+  width: 900px;
   margin: 0 auto;
-  border: 5px solid black;
-  border-collapse: collapse;
+  border: 1px solid black;
+  border-spacing: 0;
+}
+
+h1 {
+  font-family: "Kranky", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
 }
 
 th, td {
-  border: 8px solid black;
+  border: 9px solid black;
 }
 
-tr.top_first {
+tr.f_row {
   height: 80px;
 }
 
@@ -36,6 +44,10 @@ td.s_one {
   width: 75px;
 }
 
+tr.s_row, tr.th_row {
+  height: 112px;
+}
+
 td.s_two {
   height: 30px;
   background-color: red;
@@ -45,7 +57,43 @@ td.s_three {
   background-color: #ffe000;
 }
 
+tr.fo_row, tr.fif_row {
+  height: 112px;
+}
+
+tr.si_row {
+  height: 116px;
+}
+
 td.si_one {
   width: 5px;
   background-color: black;
+}
+
+tr.sev_row {
+  height: 116px;
+}
+
+td.sev_one {
+  background-color: #ffe000;
+}
+
+td.sev_three {
+  background-color: #0707d6;
+}
+
+td.sev_four {
+  background-color: red;
+}
+
+tr.e_row {
+  height: 65px;
+}
+
+td.e_two {
+  background-color: black;
+}
+
+tr.n_row {
+  height: 50px;
 }
