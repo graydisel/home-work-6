@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kranky&display=swap');
-body
+body {
+  background-image: url(image/background.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 table {
   width: 900px;
   margin: 0 auto;
@@ -7,11 +13,22 @@ table {
   border-spacing: 0;
 }
 
+tbody {
+  background-color: white;
+}
+
+td[style*="visibility: hidden;"] {
+  height: 0;
+  padding: 0;
+  border: none;
+}
+
 h1 {
   font-family: "Kranky", serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
-  font-size: 40px;
+  font-size: 50px;
+  text-align: center;
 }
 
 th, td {
