@@ -10,6 +10,42 @@ th, td {
   border: 8px solid black;
 }
 
-tr.top_one {
+tr.top_first {
   height: 80px;
+}
+
+th.f_one {
+  width: 40px;
+}
+
+th.f_two {
+  width: 25px;
+}
+
+th.f_three {
+  width: 16px;
+  background-color: #ffe000;
+}
+
+th.f_four {
+  width: 25px;
+}
+
+td.s_one {
+  height: 10px;
+  width: 75px;
+}
+
+td.s_two {
+  height: 30px;
+  background-color: red;
+}
+
+td.s_three {
+  background-color: #ffe000;
+}
+
+td.si_one {
+  width: 5px;
+  background-color: black;
 }
